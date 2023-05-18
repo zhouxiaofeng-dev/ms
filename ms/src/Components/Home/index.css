@@ -1,0 +1,49 @@
+.home {
+    width: 100%;
+    height: 100%;
+    background: url(../../dist/static/星空海边\ .jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.login {
+    width: 151px;
+    height: 54px;
+    background-color: transparent;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin: 100px 0 0 670px;
+}
+
+.title {
+    width: 1000px;
+    font-size: 66px;
+    height: 100px;
+    color: #fff;
+    background-color: transparent;
+    line-height: 100px;
+    text-align: center;
+    margin: 100px 0 0 246px;
+    font-weight: 600;
+    font-family: "Mona Sans",
+        "Mona Sans Fallback",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Helvetica,
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol";
+    font-feature-settings: "ss02"on,
+        "ss01"on;
+}
+
+.login:hover {
+    border-color: thistle;
+    color: thistle;
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+#article {
+    width: 1536px;
+    height: 759px;
+    font-family: "Trebuchet MS",
+        Arial,
+        Helvetica,
+        sans-serif;
+    margin-right: calc(100% - 100vw);
+}
+
+.header {
+    position: fixed;
+    width: 1536px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #3EB5E3;
+    z-index: 100;
+}
+
+.header span {
+    background-color: transparent;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.article_main {
+    width: 100%;
+    height: 686px;
+}
+
+.sidebar {
+    /* float: left; */
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    top: 70px;
+
+}
+
+.chooseList {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    color: #fff;
+    background-color: #02c0c9;
+}
+
+li:first-child {
+    border-top: 3px solid #fff;
+}
+
+.chooseList li {
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 3px double #fff;
+
+
+}
+
+.chooselist_A {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: .5s;
+}
+
+.ActiveSytle {
+    height: 100px;
+    font-size: 30px;
+    line-height: 100px;
+    background-color: #fff;
+    color: black;
+}
+
+.chooselist_A:hover {
+    height: 100px;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+.context_main {
+    width: 1336px;
+    height: 100%;
+    float: right;
+    border-top: 3px solid #fff;
+    margin-top: 70px;
+}

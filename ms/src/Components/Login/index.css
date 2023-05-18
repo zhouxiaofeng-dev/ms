@@ -1,0 +1,126 @@
+#Login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1536px;
+    height: 759px;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: grey;
+}
+
+.Login-interface {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    margin: auto 0;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.Login-img {
+    position: absolute;
+    top: -30%;
+    left: 70%;
+    width: 200px;
+    height: 200px;
+    background: url(../../dist/static/rabbit2.png) no-repeat;
+    background-size: cover;
+}
+
+.Login-password {
+    width: 70%;
+    height: 70%;
+    margin: 50px auto;
+    margin-bottom: 0;
+    /* border: 1px solid black; */
+}
+
+.Login-password * {
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1.33rem;
+    color: #252933;
+}
+
+input {
+    width: 90%;
+    border: 1px solid #f2f3f5;
+    outline: none;
+    background-color: #f2f3f5;
+    border-radius: 4px;
+    padding: 10px;
+    text-indent: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #1e80ff;
+    background-color: #fff;
+}
+
+.password {
+    padding-right: 77px;
+}
+
+.forgetPassword {
+    position: absolute;
+    top: 152px;
+    left: 235px;
+    background-color: transparent;
+    display: inline-block;
+    padding: 9px 6px;
+    min-width: 4.83rem;
+    font-weight: 500;
+    color: #515767;
+    cursor: pointer;
+}
+
+.forgetPassword:hover {
+    color: skyblue;
+}
+
+.Login {
+    width: 92%;
+    height: 40px;
+    background-color: #1e80ff;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.changeIdentify {
+    float: right;
+    cursor: pointer;
+    color: #515767;
+    margin-right: 30px;
+    width: 73px;
+}
+
+.changeIdentify:hover {
+    color: skyblue;
+}
+
+.userAgreement {
+    color: #8a919f;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
